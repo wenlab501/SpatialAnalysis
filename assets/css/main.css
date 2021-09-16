@@ -27,6 +27,7 @@
 		font: inherit;
 		vertical-align: baseline;
 		font-family: "微軟正黑體", "Microsoft JhengHei","Areil";
+		font-weight: bold;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -805,7 +806,7 @@
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #c8cccf;
-		color: #414f57;
+		color: #006000;
 		cursor: pointer;
 		text-align: center;
 		text-decoration: none;
@@ -817,9 +818,9 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #2c28ff;
-			color: #2c28ff !important;
-			background-color:rgb(33, 131, 196,0.3);
+			border-color: #006000;
+			color: 	#006000 !important;
+			background-color:rgb(219,224,11,0.7);
 		}
 
 		input[type="submit"].icon,
