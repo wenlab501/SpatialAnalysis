@@ -12,7 +12,7 @@
 
     $.ajax({
         type: "GET",
-        url: "https://raw.githubusercontent.com/wenlab501/GEOG2017/main/DATA/datalist.csv",
+        url: "https://raw.githubusercontent.com/wenlab501/SpatialAnalysis/main/datalist.csv",
         success: function (data) {
 			data=Papa.parse(data).data;
 			
@@ -30,32 +30,15 @@
 				let datatype="";				
 				if(row[2]=="面資料") datatype="<poly>面資料</poly>"
 				else if (row[2]=="點資料") datatype="<point>點資料</point>"
-				else if (row[2]=="點座標") datatype="<coord>點座標</coord>"
 				else if (row[2]=="") datatype=row[2]
-				else datatype="<gray>"+row[2]+"</gray>";
+				else datatype="<gray>"+row[2]+"</gray>";	
 				
-				let crs;
-				if(row[3]==3826) crs="<twd>3826</twd>"
-				else if (row[3]=="無") crs="<na>無</na>"
-				else if (row[3]==3828|row[3]==4326) crs="<crs>"+row[3]+"</crs>"
-				else if (row[3]=="") crs=""
-				else crs="<gray>"+row[3]+"</gray>";	
-				
-				let area;
-				if(row[4]=="全台灣") area="<TWN>全台灣</TWN>"
-				else if (row[4]=="台北市") area="<TPE>台北市</TPE>"
-				else if (row[4]=="台南市") area="<TNN>台南市</TNN>"
-				else if (row[4]=="") area=row[4]
-				else area="<gray>"+row[4]+"</gray>";	
-				
-				
-				let txt = '<tr>'+'<td><a href="data/'+row[7]+'"><button>'+row[0]+'</button></a></td>'+
-								'<td>'+ext+'</td>'+
-								'<td>'+datatype+'</td>'+
-								'<td>'+crs+'</td>'+
-								'<td>'+area+'</td>'+
+				let txt = '<tr>'+'<td>'+row[0]+'</td>'+
+								'<td>'+row[1]+'</td>'+
+								'<td>'+row[2]+'</td>'+
+								'<td>'+row[3]+'</td>'+
+								'<td>'+row[4]+'</td>'+
 								'<td>'+row[5]+'</td>'+
-								'<td>'+row[6]+'</td>'+
 						  '</tr>';
 				
 				$('tbody').append(txt);

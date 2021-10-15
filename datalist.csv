@@ -14,13 +14,4 @@
 【6】【7】【8】,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,2014 年下半年度（6 – 12 月）高雄市登革熱確診病例,
 【6】【7】【8】,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄鄉鎮市區邊界圖層,
 【8】,KAOH_vill,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄村里邊界圖層,
-【9】,TNN_KAOH_dengue2015_factor,shp;shx;dbf;prj;cpg,面資料,2015 年台南市與高雄市各鄉鎮市區的登革熱確診病例與社會環境特徵,"DEN_CNT：登革熱病例數 <br>
-POP_DEN：人口密度 <br>
-DEPND_RATI：扶養比 <br>
-COLLEGEA_P：大學與大專以上教育程度的就學人口比例（作為「高等教育程度」指標） <br>
-TAX_AVERAG：平均綜合所得稅（作為「平均收入」指標）"
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+【9】,TNN_KAOH_dengue2015_factor,shp;shx;dbf;prj;cpg,面資料,2015 年台南市與高雄市各鄉鎮市區的登革熱確診病例與社會環境特徵,DEN_CNT：登革熱病例數 <br>POP_DEN：人口密度 <br>DEPND_RATI：扶養比 <br>COLLEGEA_P：大學與大專以上教育程度的就學人口比例（作為「高等教育程度」指標） <br>TAX_AVERAG：平均綜合所得稅（作為「平均收入」指標）
