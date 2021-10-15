@@ -8,16 +8,15 @@ h2{font-weight:bold;}
 .table td .table th{vertical-align:middle}
 @media (min-width: 1200px){.container {max-width: 90%;}}
 
-shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal{border-radius:20%;padding:0 3px 0 1px}
-poly, point, coord, twd, crs, na, gray, TWN, TPE, TNN{border-radius:10%;padding:0 3px 0 3px}
+shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif {border-radius:20%;padding:0 3px 0 1px}
 
 .red, shp, shx, dbf, TWN {background-color:rgba(255,0,26,0.2);}
 .yellow, prj, cpg, qpj, TNN {background-color:rgba(233,168,0,0.2)}
-.gray, sbn, sbx, na, zip, gray, gal {background-color:rgba(155,154,151,0.4)}
-.green, csv, twd, xls {background-color:rgba(0,135,107,0.2)}
-.blue, Rdata, poly, crs {background-color:rgba(0,120,223,0.2)}
-.purple, point {background-color:rgba(103,36,222,0.2)}
-.brown, coord {background-color:rgba(140,46,0,0.2)}
+.gray, sbn, sbx, na, zip, gray, gal, xml,shpxml {background-color:rgba(155,154,151,0.4)}
+.green, point, csv {background-color:rgba(0,135,107,0.2)}
+.blue, poly, crs {background-color:rgba(0,120,223,0.2)}
+.purple {background-color:rgba(103,36,222,0.2)}
+.brown, coord, tif {background-color:rgba(140,46,0,0.2)}
 .orange, TPE {background-color:rgba(245,93,0,0.2)}
 .pink {background-color:rgba(221,0,129,0.2)}
 

@@ -19,30 +19,29 @@
 			for (var i = 1; i < data.length-1; i++) {
 				row=data[i];
 				
-				if(row.join('')=='***') $('tbody').append('<tr><td colspan="7"><B>* 以下圖資為課程【13】～【17】內容，依照課程週次排序</B></td></tr>');
-				else{	
 				let ext="";
-				if(typeof row[1] !== "undefined"){
-					exts=row[1].split(";");
-					for (const e of exts){ext=ext+'<'+e+'>.'+e+'</'+e+'> ';}
+				if(typeof row[2] !== "undefined"){
+					exts=row[2].split(";");
+					for (const e of exts){
+						if(e=='shp.xml'){ext=ext+'<shpxml>.'+e+'</shpxml> ';}
+						else {ext=ext+'<'+e+'>.'+e+'</'+e+'> ';}}
 				}
 								
 				let datatype="";				
-				if(row[2]=="面資料") datatype="<poly>面資料</poly>"
-				else if (row[2]=="點資料") datatype="<point>點資料</point>"
-				else if (row[2]=="") datatype=row[2]
-				else datatype="<gray>"+row[2]+"</gray>";	
+				if(row[3]=="面資料") datatype="<poly>面資料</poly>"
+				else if (row[3]=="點資料") datatype="<point>點資料</point>"
+				else if (row[3]=="") datatype=row[3]
+				else datatype="<gray>"+row[3]+"</gray>";	
 				
 				let txt = '<tr>'+'<td>'+row[0]+'</td>'+
-								'<td>'+row[1]+'</td>'+
-								'<td>'+row[2]+'</td>'+
-								'<td>'+row[3]+'</td>'+
+								'<td><B>'+row[1]+'</B></td>'+
+								'<td>'+ext+'</td>'+
+								'<td>'+datatype+'</td>'+
 								'<td>'+row[4]+'</td>'+
 								'<td>'+row[5]+'</td>'+
 						  '</tr>';
 				
 				$('tbody').append(txt);
-				}
 			}
         }
     });
