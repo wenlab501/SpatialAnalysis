@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+  <head>
+	<title>空間分析：圖資清單</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+	<script src="main/main.js"></script>
+	<link rel="stylesheet" href="main/main.css">
+	<base target="_blank">
+  </head>
+  <body>
+	<div class='main'>
+	  <h1>空間分析</h1>
+	  <h2>課程圖資清單</h2>
+	  <p>課程提供之圖資僅供練習使用</p>
+	</div>
+
+    <div class='container' style="width=2000px">
+		<div class='row' style="font-size:150%">
+			<p><a href="SA_Data.zip"><button>📁 下載所有圖資</button></button></a> 或 點選下方檔案名稱進行下載</p>
+		</div>
+
+		<div class='row'>
+			<table class='table' id='table'>
+				<thead>
+					<tr>
+						<th>檔案名稱</th>
+						<th>副檔名</th>
+						<th>空間型態</th>
+						<th>座標系統</th>
+						<th>資料範圍</th>
+						<th>資料名稱</th>
+						<th>備註</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--AJAX內容-->
+				</tbody>
+			</table>
+		</div>
+	</div>
+  </body>	
+</html>
