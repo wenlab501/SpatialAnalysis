@@ -3,7 +3,7 @@
 【2】,Taiwan_county,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,台灣本島縣市邊界圖層,
 【2】,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml;xml,面資料,台灣本島鄉鎮市區邊界圖層,
 【3】,Taipei_hospital,shp;shx;dbf;prj;cpg;sbn;sbx;xml,點資料,台北市醫院點位圖層,
-【3】,Taipei_village,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,台北市村里界圖層（含民國 107 年年齡人口統計資料）,
+【3】,Taipei_village,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,台北市村里界圖層<sup>1</sup>（含民國 107 年年齡人口統計資料<sup>2</sup>）,
 【3】,Taipei_flood200,tif,面資料,台北市淹水潛勢資料：200 年重現期降雨事件的 24 小時淹水深度，單位：公尺,
 【4】,Taiwan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,台灣本島媽祖廟宇點位圖層,Belief_pop：信眾人口估計
 【4】,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;xml,面資料,台灣鄉鎮市區邊界圖層,CENSUS：鄉鎮市區人口數
@@ -11,7 +11,7 @@
 【5】,Tainan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,台南市媽祖廟宇點位圖層,Belief_pop：信眾人口估計
 【5】,Tainan_county,shp;shx;dbf;prj;sbn;sbx;shp.xml,面資料,台南市行政區邊界圖層,
 【5】,grid5X5,shp;shx;dbf;prj;sbn;sbx;shp.xml,面資料,台南市行政區邊界圖層,
-【6】【7】【8】,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,2014 年下半年度（6 – 12 月）高雄市登革熱確診病例,
-【6】【7】【8】,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄鄉鎮市區邊界圖層,
+【6】<br>【7】<br>【8】,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,2014 年下半年度（6 – 12 月）高雄市登革熱確診病例,
+【6】<br>【7】<br>【8】,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄鄉鎮市區邊界圖層,
 【8】,KAOH_vill,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄村里邊界圖層,
 【9】,TNN_KAOH_dengue2015_factor,shp;shx;dbf;prj;cpg,面資料,2015 年台南市與高雄市各鄉鎮市區的登革熱確診病例與社會環境特徵,DEN_CNT：登革熱病例數 <br>POP_DEN：人口密度 <br>DEPND_RATI：扶養比 <br>COLLEGEA_P：大學與大專以上教育程度的就學人口比例（作為「高等教育程度」指標） <br>TAX_AVERAG：平均綜合所得稅（作為「平均收入」指標）
