@@ -44,14 +44,12 @@ $.ajax({
 			$('tbody').append(txt);	
 		}
 		
-		$(".fid").each(
-			function(index){ $(this).append("<a href='#footer' target='_self'>"+(index+1)+"</a>");}
+		$("star").append("<sup><a href='#footer' target='_self'>*</a></sup>");
+		$("note").each(
+			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
 		);
-		$(".sid").each(
-			function(index){ $(this).append("<a href='#footer' target='_self'>*</a>");}
-		);
-		$(".ffid").each(
-			function(index){ $(this).append("<a href='#footer' target='_self'>"+(index+1)+"</a>");}
+		$("footnote").each(
+			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
 		);
 	}
 });

@@ -1,16 +1,19 @@
 .table td, .table th{vertical-align:middle}
 @media (min-width: 1200px){.container {max-width: 95%;}}
 
-.row{margin-bottom: 20px;}
+.row{margin-bottom:20px;}
 .main{text-align:center;}
-h1{padding-top:10px;font-weight:bold;color:#006000}
-h2{font-weight:bold;}
-a:hover{text-decoration: none;}
-a>h1:hover{color:#CC4400;}
-sup>a,.footertxt{color:#CC4400;font-weight:bold;}
-.fid, .ffid{font-size:90%}
-.sid{font-size:120%;top: -.2em;}
+.title{background-color:rgb(219,224,11,0.6);}
+h1{padding:10px 0 10px 0;color:#006000}
+h1,h2{font-weight:bold;}
+a:hover{text-decoration:none;}
+h1:hover{color:#CC4400;}
+sup>a, .footertxt{color:#CC4400;font-weight:bold;}
+note,footnote{font-size:90%}
+star{font-size:120%;top: -.2em;}
+
 shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif{border-radius:20%;padding:0 3px 0 1px;font-size:80%}
+poly, point{border-radius:10%;padding:0 3px 0 3px}
 
 .red, shp, shx, dbf, TWN {background-color:rgba(255,0,26,0.2);}
 .yellow, prj, cpg, qpj, TNN {background-color:rgba(233,168,0,0.2)}
