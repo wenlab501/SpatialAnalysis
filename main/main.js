@@ -50,6 +50,8 @@ $.ajax({
 		$(".sid").each(
 			function(index){ $(this).append("<a href='#footer' target='_self'>*</a>");}
 		);
-		
+		$(".ffid").each(
+			function(index){ $(this).append("<a href='#footer' target='_self'>"+(index+1)+"</a>");}
+		);
 	}
 });
