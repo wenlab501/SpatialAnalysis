@@ -1,14 +1,13 @@
-.table td, .table th{vertical-align:middle}
+@media (min-width: 1200px){.container {max-width: 95%;}}
 
 .row{margin-bottom: 20px;}
+.main{text-align:center;}
+.table td .table th{vertical-align:middle}
 h1{padding-top:10px;font-weight:bold;color:#006000}
 h2{font-weight:bold;}
-a:hover,h1:hover{color:#CC4400;text-decoration: none;}
-.main{text-align:center;}
-.left{text-align:left}
-.table td .table th{vertical-align:middle}
-@media (min-width: 1200px){.container {max-width: 95%;}}
-sup{color:#CC4400}
+a:hover{text-decoration: none;}
+a>h1:hover{color:#CC4400;}
+sup>a{color:#CC4400;font-weight:bold;}
 
 
 shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif{border-radius:20%;padding:0 3px 0 1px;font-size:80%}

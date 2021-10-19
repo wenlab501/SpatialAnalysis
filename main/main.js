@@ -44,8 +44,11 @@ $.ajax({
 			$('tbody').append(txt);	
 		}
 		
-		$("sup").each(
+		$(".fid").each(
 			function(index){ $(this).append("<a href='#footer' target='_self'>"+(index+1)+"</a>");}
+		);
+		$(".sid").each(
+			function(index){ $(this).append("<a href='#footer' target='_self'>*</a>");}
 		);
 		
 	}
