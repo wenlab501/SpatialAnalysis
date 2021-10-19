@@ -1,14 +1,17 @@
 .table td, .table th{vertical-align:middle}
 
 .row{margin-bottom: 20px;}
-h1{padding-top:10px}
+h1{padding-top:10px;font-weight:bold;color:#006000}
 h2{font-weight:bold;}
+a:hover,h1:hover{color:#CC4400;text-decoration: none;}
 .main{text-align:center;}
 .left{text-align:left}
 .table td .table th{vertical-align:middle}
-@media (min-width: 1200px){.container {max-width: 90%;}}
+@media (min-width: 1200px){.container {max-width: 95%;}}
+sup{color:#CC4400}
 
-shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif {border-radius:20%;padding:0 3px 0 1px}
+
+shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif{border-radius:20%;padding:0 3px 0 1px;font-size:80%}
 
 .red, shp, shx, dbf, TWN {background-color:rgba(255,0,26,0.2);}
 .yellow, prj, cpg, qpj, TNN {background-color:rgba(233,168,0,0.2)}
@@ -39,3 +42,10 @@ button:hover {
 		color: #AE0000 !important;
 		background-color:rgb(255, 179, 179,0.3);
 }
+
+thead th:nth-child(1),tbody td:nth-child(1) {width:4%;}
+thead th:nth-child(2),tbody td:nth-child(2) {width:10%;}
+thead th:nth-child(3),tbody td:nth-child(3) {width:20%;}
+thead th:nth-child(4),tbody td:nth-child(4) {width:6%;}
+thead th:nth-child(5),tbody td:nth-child(5) {width:30%;}
+thead th:nth-child(6),tbody td:nth-child(6) {width:30%;}
