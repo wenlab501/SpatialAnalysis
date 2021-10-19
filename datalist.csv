@@ -4,7 +4,7 @@
 【2】,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml;xml,面資料,台灣本島鄉鎮市區邊界圖層,
 【3】,Taipei_hospital,shp;shx;dbf;prj;cpg;sbn;sbx;xml,點資料,台北市醫院點位圖層,
 【3】,Taipei_village,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,"台北市村里界圖層<sup class=""fid""></sup>（含民國 107 年年齡人口統計資料<sup class=""fid""></sup>）",
-【3】,Taipei_flood200,tif,面資料,"台北市淹水潛勢資料：200 年重現期降雨事件的 24 小時淹水深度<sup class=""sid""></sup> <sup>（單位：公尺）</sup>",
+【3】,Taipei_flood200,tif,面資料,"台北市淹水潛勢資料：200 年重現期降雨事件的 24 小時淹水深度<sup class=""sid""></sup> <sup>單位：公尺</sup>",
 【4】,Taiwan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,台灣本島媽祖廟宇點位圖層,"<I>Belief_pop</I>：信眾人口估計<sup class=""sid""></sup>"
 【4】,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;xml,面資料,台灣鄉鎮市區邊界圖層,"<I>CENSUS</I>：鄉鎮市區人口數<sup class=""fid""></sup>"
 【5】,Tainan_schools,shp;shx;dbf;prj;sbn;sbx;shp.xml,點資料,台南市學校點位圖層,
