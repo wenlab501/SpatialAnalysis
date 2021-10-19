@@ -44,11 +44,11 @@ $.ajax({
 			$('tbody').append(txt);	
 		}
 		
-		$("star").append("<sup><a href='#footer' target='_self'>*</a></sup>");
-		$("note").each(
+		$('star').append("<sup><a href='#footer' target='_self'>*</a></sup>");
+		$('note').each(
 			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
 		);
-		$("footnote").each(
+		$('footnote').each(
 			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
 		);
 	}
