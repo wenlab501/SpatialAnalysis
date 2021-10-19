@@ -8,8 +8,8 @@ h2{font-weight:bold;}
 a:hover{text-decoration: none;}
 a>h1:hover{color:#CC4400;}
 sup>a,.footertxt{color:#CC4400;font-weight:bold;}
-
-
+.fid, .ffid{font-size:90%}
+.sid{font-size:120%;top: -.2em;}
 shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif{border-radius:20%;padding:0 3px 0 1px;font-size:80%}
 
 .red, shp, shx, dbf, TWN {background-color:rgba(255,0,26,0.2);}
