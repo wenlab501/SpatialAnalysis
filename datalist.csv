@@ -1,17 +1,17 @@
-³¹¸`	ÀÉ®×¦WºÙ	°ÆÀÉ¦W	ªÅ¶¡«¬ºA	¸ê®Æ¦WºÙ	­«­nÄÝ©ÊÄæ¦ì
-¡i2¡j	Taiwan_temple	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	ÂI¸ê®Æ	¥xÆW¥»®q¼q¦tÂI¦ì¹Ï¼h	
-¡i2¡j	Taiwan_county	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	­±¸ê®Æ	¥xÆW¥»®q¿¤¥«Ãä¬É¹Ï¼h	
-¡i2¡j	Taiwan_town	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml;xml	­±¸ê®Æ	¥xÆW¥»®q¶mÂí¥«°ÏÃä¬É¹Ï¼h	
-¡i3¡j	Taipei_hospital	shp;shx;dbf;prj;cpg;sbn;sbx;xml	ÂI¸ê®Æ	¥x¥_¥«Âå°|ÂI¦ì¹Ï¼h	
-¡i3¡j	Taipei_village	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	­±¸ê®Æ	"¥x¥_¥«§ø¨½¬É¹Ï¼h<sup class=""fid""></sup>¡]§t¥Á°ê 107 ¦~¦~ÄÖ¤H¤f²Î­p¸ê®Æ<sup class=""fid""></sup>¡^"	
-¡i3¡j	Taipei_flood200	tif	­±¸ê®Æ	"¥x¥_¥«²T¤ô¼ç¶Õ¸ê®Æ¡G200 ¦~­«²{´Á­°«B¨Æ¥óªº 24 ¤p®É²T¤ô²`«×¡A³æ¦ì¡G¤½¤Ø<sup class=""sid""></sup>"	
-¡i4¡j	Taiwan_temple_mazhou	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	ÂI¸ê®Æ	¥xÆW¥»®q¶ý¯ª¼q¦tÂI¦ì¹Ï¼h	"Belief_pop¡G«H²³¤H¤f¦ô­p<sup class=""sid""></sup>"
-¡i4¡j	Taiwan_town	shp;shx;dbf;prj;cpg;sbn;sbx;xml	­±¸ê®Æ	¥xÆW¶mÂí¥«°ÏÃä¬É¹Ï¼h	"CENSUS¡G¶mÂí¥«°Ï¤H¤f¼Æ<sup class=""fid""></sup>"
-¡i5¡j	Tainan_schools	shp;shx;dbf;prj;sbn;sbx;shp.xml	ÂI¸ê®Æ	¥x«n¥«¾Ç®ÕÂI¦ì¹Ï¼h	
-¡i5¡j	Tainan_temple_mazhou	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	ÂI¸ê®Æ	¥x«n¥«¶ý¯ª¼q¦tÂI¦ì¹Ï¼h	"Belief_pop¡G«H²³¤H¤f¦ô­p<sup class=""sid""></sup>"
-¡i5¡j	Tainan_county	shp;shx;dbf;prj;sbn;sbx;shp.xml	­±¸ê®Æ	¥x«n¥«¦æ¬F°ÏÃä¬É¹Ï¼h	
-¡i5¡j	grid5X5	shp;shx;dbf;prj;sbn;sbx;shp.xml	­±¸ê®Æ	¥x«n¥«¦æ¬F°ÏÃä¬É¹Ï¼h	
-¡i6¡j<br>¡i7¡j<br>¡i8¡j	Dengue_Case	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	ÂI¸ê®Æ	2014 ¦~¤U¥b¦~«×¡]6 ¡V 12 ¤ë¡^°ª¶¯¥«µn­²¼ö½T¶E¯f¨Ò	
-¡i6¡j<br>¡i7¡j<br>¡i8¡j	KAOH_town	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	­±¸ê®Æ	°ª¶¯¶mÂí¥«°ÏÃä¬É¹Ï¼h	
-¡i8¡j	KAOH_vill	shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml	­±¸ê®Æ	°ª¶¯§ø¨½Ãä¬É¹Ï¼h	
-¡i9¡j	TNN_KAOH_dengue2015_factor	shp;shx;dbf;prj;cpg	­±¸ê®Æ	2015 ¦~¥x«n¥«»P°ª¶¯¥«¦U¶mÂí¥«°Ïªºµn­²¼ö½T¶E¯f¨Ò»PªÀ·|Àô¹Ò¯S¼x	<I>DEN_CNT</I>¡Gµn­²¼ö¯f¨Ò¼Æ <br>POP_DEN¡G¤H¤f±K«× <br>DEPND_RATI¡G§ß¾i¤ñ <br>COLLEGEA_P¡G¤j¾Ç»P¤j±M¥H¤W±Ð¨|µ{«×ªº´N¾Ç¤H¤f¤ñ¨Ò¡]§@¬°¡u°ªµ¥±Ð¨|µ{«×¡v«ü¼Ð¡^ <br>TAX_AVERAG¡G¥­§¡ºî¦X©Ò±oµ|¡]§@¬°¡u¥­§¡¦¬¤J¡v«ü¼Ð¡^
+ï»¿ç« ç¯€,æª”æ¡ˆåç¨±,å‰¯æª”å,ç©ºé–“åž‹æ…‹,è³‡æ–™åç¨±,é‡è¦å±¬æ€§æ¬„ä½
+ã€2ã€‘,Taiwan_temple,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é»žè³‡æ–™,å°ç£æœ¬å³¶å»Ÿå®‡é»žä½åœ–å±¤,
+ã€2ã€‘,Taiwan_county,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é¢è³‡æ–™,å°ç£æœ¬å³¶ç¸£å¸‚é‚Šç•Œåœ–å±¤,
+ã€2ã€‘,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml;xml,é¢è³‡æ–™,å°ç£æœ¬å³¶é„‰éŽ®å¸‚å€é‚Šç•Œåœ–å±¤,
+ã€3ã€‘,Taipei_hospital,shp;shx;dbf;prj;cpg;sbn;sbx;xml,é»žè³‡æ–™,å°åŒ—å¸‚é†«é™¢é»žä½åœ–å±¤,
+ã€3ã€‘,Taipei_village,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é¢è³‡æ–™,"å°åŒ—å¸‚æ‘é‡Œç•Œåœ–å±¤<sup class=""fid""></sup>ï¼ˆå«æ°‘åœ‹ 107 å¹´å¹´é½¡äººå£çµ±è¨ˆè³‡æ–™<sup class=""fid""></sup>ï¼‰",
+ã€3ã€‘,Taipei_flood200,tif,é¢è³‡æ–™,"å°åŒ—å¸‚æ·¹æ°´æ½›å‹¢è³‡æ–™ï¼š200 å¹´é‡ç¾æœŸé™é›¨äº‹ä»¶çš„ 24 å°æ™‚æ·¹æ°´æ·±åº¦<sup class=""sid""></sup>",<sup>è¨»ï¼šå–®ä½ç‚ºå…¬å°º</sup>
+ã€4ã€‘,Taiwan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é»žè³‡æ–™,å°ç£æœ¬å³¶åª½ç¥–å»Ÿå®‡é»žä½åœ–å±¤,"Belief_pop</I>ï¼šä¿¡çœ¾äººå£ä¼°è¨ˆ<sup class=""sid""></sup>"
+ã€4ã€‘,Taiwan_town,shp;shx;dbf;prj;cpg;sbn;sbx;xml,é¢è³‡æ–™,å°ç£é„‰éŽ®å¸‚å€é‚Šç•Œåœ–å±¤,"<I>CENSUS</I>ï¼šé„‰éŽ®å¸‚å€äººå£æ•¸<sup class=""fid""></sup>"
+ã€5ã€‘,Tainan_schools,shp;shx;dbf;prj;sbn;sbx;shp.xml,é»žè³‡æ–™,å°å—å¸‚å­¸æ ¡é»žä½åœ–å±¤,
+ã€5ã€‘,Tainan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é»žè³‡æ–™,å°å—å¸‚åª½ç¥–å»Ÿå®‡é»žä½åœ–å±¤,"<I>Belief_pop</I>ï¼šä¿¡çœ¾äººå£ä¼°è¨ˆ<sup class=""sid""></sup>"
+ã€5ã€‘,Tainan_county,shp;shx;dbf;prj;sbn;sbx;shp.xml,é¢è³‡æ–™,å°å—å¸‚è¡Œæ”¿å€é‚Šç•Œåœ–å±¤,
+ã€5ã€‘,grid5X5,shp;shx;dbf;prj;sbn;sbx;shp.xml,é¢è³‡æ–™,å°å—å¸‚è¡Œæ”¿å€é‚Šç•Œåœ–å±¤,
+ã€6ã€‘<br><I>ã€7ã€‘<br><I>ã€8ã€‘,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é»žè³‡æ–™,2014 å¹´ä¸‹åŠå¹´åº¦ï¼ˆ6 â€“ 12 æœˆï¼‰é«˜é›„å¸‚ç™»é©ç†±ç¢ºè¨ºç—…ä¾‹,
+ã€6ã€‘<br><I>ã€7ã€‘<br><I>ã€8ã€‘,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é¢è³‡æ–™,é«˜é›„é„‰éŽ®å¸‚å€é‚Šç•Œåœ–å±¤,
+ã€8ã€‘,KAOH_vill,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,é¢è³‡æ–™,é«˜é›„æ‘é‡Œé‚Šç•Œåœ–å±¤,
+ã€9ã€‘,TNN_KAOH_dengue2015_factor,shp;shx;dbf;prj;cpg,é¢è³‡æ–™,2015 å¹´å°å—å¸‚èˆ‡é«˜é›„å¸‚å„é„‰éŽ®å¸‚å€çš„ç™»é©ç†±ç¢ºè¨ºç—…ä¾‹èˆ‡ç¤¾æœƒç’°å¢ƒç‰¹å¾µ,<I>DEN_CNT</I>ï¼šç™»é©ç†±ç—…ä¾‹æ•¸ <br><I>POP_DEN</I>ï¼šäººå£å¯†åº¦ <br><I>DEPND_RATI</I>ï¼šæ‰¶é¤Šæ¯” <br><I>COLLEGEA_P</I>ï¼šå¤§å­¸èˆ‡å¤§å°ˆä»¥ä¸Šæ•™è‚²ç¨‹åº¦çš„å°±å­¸äººå£æ¯”ä¾‹ï¼ˆä½œç‚ºã€Œé«˜ç­‰æ•™è‚²ç¨‹åº¦ã€æŒ‡æ¨™ï¼‰ <br><I>TAX_AVERAG</I>ï¼šå¹³å‡ç¶œåˆæ‰€å¾—ç¨…ï¼ˆä½œç‚ºã€Œå¹³å‡æ”¶å…¥ã€æŒ‡æ¨™ï¼‰
