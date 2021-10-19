@@ -11,7 +11,7 @@
 【5】,Tainan_temple_mazhou,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,台南市媽祖廟宇點位圖層,"<I>Belief_pop</I>：信眾人口估計<sup class=""sid""></sup>"
 【5】,Tainan_county,shp;shx;dbf;prj;sbn;sbx;shp.xml,面資料,台南市行政區邊界圖層,
 【5】,grid5X5,shp;shx;dbf;prj;sbn;sbx;shp.xml,面資料,台南市行政區邊界圖層,
-【6】<br><I>【7】<br><I>【8】,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,2014 年下半年度（6 – 12 月）高雄市登革熱確診病例,
-【6】<br><I>【7】<br><I>【8】,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄鄉鎮市區邊界圖層,
+【6】<br>【7】<br>【8】,Dengue_Case,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,點資料,2014 年下半年度（6 – 12 月）高雄市登革熱確診病例,
+【6】<br>【7】<br>【8】,KAOH_town,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄鄉鎮市區邊界圖層,
 【8】,KAOH_vill,shp;shx;dbf;prj;cpg;sbn;sbx;shp.xml,面資料,高雄村里邊界圖層,
 【9】,TNN_KAOH_dengue2015_factor,shp;shx;dbf;prj;cpg,面資料,2015 年台南市與高雄市各鄉鎮市區的登革熱確診病例與社會環境特徵,<I>DEN_CNT</I>：登革熱病例數 <br><I>POP_DEN</I>：人口密度 <br><I>DEPND_RATI</I>：扶養比 <br><I>COLLEGEA_P</I>：大學與大專以上教育程度的就學人口比例（作為「高等教育程度」指標） <br><I>TAX_AVERAG</I>：平均綜合所得稅（作為「平均收入」指標）
