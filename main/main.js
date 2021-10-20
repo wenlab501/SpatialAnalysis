@@ -44,12 +44,8 @@ $.ajax({
 			$('tbody').append(txt);	
 		}
 		
-		$('star').append("<sup><a href='#footer' target='_self'>*</a></sup>");
-		$('note').each(
-			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
-		);
-		$('footnote').each(
-			function(index){ $(this).append("<sup><a href='#footer' target='_self'>"+(index+1)+"</a></sup>");}
+		$('note').html(
+			function(index,orgText){ $(this).html("<sup><a href='#footer' target='_self'>"+orgText+"</a></sup>");}
 		);
 	}
 });

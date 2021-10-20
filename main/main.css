@@ -9,8 +9,9 @@ h1,h2{font-weight:bold;}
 a:hover{text-decoration:none;}
 h1:hover{color:#CC4400;}
 sup>a, .footertxt{color:#CC4400;font-weight:bold;}
-note,footnote{font-size:90%}
-star{font-size:120%;top: -.2em;}
+note>sup {font-size:90%}
+footnote>sup {font-size:90%;top: -.3em;}
+star>sup {font-size:120%;top: -.2em;}
 
 shp, shx, dbf, prj, cpg, qpj, sbn, sbx, csv, Rdata, xls, zip, gal, xml,shpxml, tif{border-radius:20%;padding:0 3px 0 1px;font-size:80%}
 poly, point{border-radius:10%;padding:0 3px 0 3px}
